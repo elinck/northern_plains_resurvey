@@ -5,7 +5,7 @@ library(maps) # load "maps" package
 library(elevatr) # load "elevatr" package
 library(terra) # load "terra" package
 
-# set map projections
+# set map projectionsmontana_northdakota_southdakota_records.csv
 map_proj <- st_crs("EPSG:4326")
 
 # get state and county shapefiles
@@ -18,7 +18,6 @@ counties <- st_as_sf(maps::map("county", plot = FALSE, fill = TRUE), crs = map_p
 
 # filter counties for Montana, North Dakota, South Dakota
 MT_ND_SD_counties <- subset(counties, grepl("montana|north dakota|south dakota", counties$ID))
-
 
 # check geometry of objects
 st_geometry(MT_ND_SD_states)
@@ -33,7 +32,14 @@ st_geometry(MT_ND_SD_states)
 st_geometry(MT_ND_SD_counties)
 
 # load occurence data!
-points <- read_csv("data/montana_northdakota_southdakota_records.csv") 
+points <- read_csv("data/occurences.csv")
+
+# look at variable spellings of state names
+points$stateProvi %>% unique() %>% sort()
+points <- points %>% subset(stateProvi %in% c("[North Dakota]", "Nd", "North dakota", "North Dakota",
+                                              "North Dakota (State)", "Sd", "South dakota", "South Dakota", 
+                                              "Montana (State)", "Montana"))
+
 points_sf <- st_as_sf(points, coords = c("decimalLon", "decimalLat"), crs = map_proj)
 
 # Define bounding box for Montana, North Dakota, and South Dakota due to an outlying point
@@ -70,14 +76,18 @@ ggplot(data = MT_ND_SD_counties) +
 
 
 # Load ecoregion shapefiles for Montana, North Dakota, and South Dakota
-mt_shp <- st_read("data/mt_eco_l3/mt_eco_l3.shp")  # Montana ecoregions
-nd_shp <- st_read("data/nd_eco_l3/nd_eco_l3.shp")  # North Dakota ecoregions
-sd_shp <- st_read("data/sd_eco_l3/sd_eco_l3.shp")  # South Dakota ecoregions
+mt_shp <- st_read("data/mt_eco_l4/mt_eco_l4.shp")  # Montana ecoregions
+nd_shp <- st_read("data/nd_eco_l4/nd_eco_l4.shp")  # North Dakota ecoregions
+sd_shp <- st_read("data/sd_eco_l4/sd_eco_l4.shp")  # South Dakota ecoregions
 
 # Transform shapefiles to the same CRS
 mt_shp_transf <- st_transform(mt_shp, crs = map_proj)
 nd_shp_transf <- st_transform(nd_shp, crs = map_proj)
 sd_shp_transf <- st_transform(sd_shp, crs = map_proj)
+
+# subset down to 
+mt_shp_transf <- mt_shp_transf %>% select(!OBJECTID)
+sd_shp_transf <- sd_shp_transf %>% select(!OBJECTID)
 
 # Combine the shapefiles for Montana, North Dakota, and South Dakota
 combined_shp <- rbind(mt_shp_transf, nd_shp_transf, sd_shp_transf)
@@ -188,9 +198,6 @@ ggplot(richness_grid) +
   ylab("Latitude") +
   theme_bw() +
   ggtitle("Species Richness in the Northern Plains")
-
-
-
 
 # Plot the log transformed species richness grid 
 max_richness <- 150  # Set a cap for max richness

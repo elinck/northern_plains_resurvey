@@ -82,7 +82,7 @@ bird_count_by_site <- montana_data_1950 %>%
 write_csv(bird_count_by_site, "data/bird_count_by_site_mt.csv")
 
 
-bird_species_by_site <- montana_data_1930 %>%
+bird_species_by_site <- montana_data_1950 %>%
   filter(class == "Aves") %>%  # change for mammals, amphibians, herps, etc
   group_by(locality, decimalLat, decimalLon, institutio, year) %>%
   summarise(n = n_distinct(species), .groups = "drop") %>%
@@ -258,7 +258,7 @@ south_dakota_data_1950 <- data %>%
   select(class, species, stateProvi, locality, decimalLat, decimalLon, year, institutio) %>%
   filter(stateProvi == "South Dakota") %>%
   filter(year < 1950)  # <-- Add this line to filter years
-write_csv(south_dakota_data_1930, "data/south_dakota_1950_records.csv")
+write_csv(south_dakota_data_1950, "data/south_dakota_1950_records.csv")
 
 # Aves: record count by site in South Dakota
 aves_count_by_site_sd <- south_dakota_data_1950 %>%

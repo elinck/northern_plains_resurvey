@@ -1,0 +1,1680 @@
+class,species,stateProvi,locality,decimalLat,decimalLon,year,institutio
+Aves,Ammodramus savannarum,South Dakota,Clay Co.,42.73333,-96.96667,1882,MCZ
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Canis lupus,South Dakota,5 mi NE Wounded Knee,43.178688,-102.280632,1940,FMNH
+Mammalia,Chaetodipus hispidus,South Dakota,"Pine Ridge, Corrall Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Peromyscus leucopus,South Dakota,Spring Creek,43.791889,-102.82856,1894,FMNH
+Mammalia,Ondatra zibethicus,South Dakota,Custer,43.766686,-103.59877,1894,FMNH
+Mammalia,Neotoma cinerea,South Dakota,"Pine Ridge, Corral Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mustela frenata,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Thomomys talpoides,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Neotoma cinerea,South Dakota,Custer,43.766686,-103.59877,1894,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,Spring Creek,43.791889,-102.82856,1895,FMNH
+Mammalia,Sylvilagus nuttallii,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mustela frenata,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Ictidomys tridecemlineatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Bison bison,South Dakota,"Ft Pierre, James Phillips Ranch",44.35458,-100.374008,1910,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Reithrodontomys megalotis,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766686,-103.59877,1894,FMNH
+Mammalia,Tamias minimus,South Dakota,"Black Hills, 8 mi NE Hill City, Palmer Gulch",44.010689,-103.459366,1943,FMNH
+Mammalia,Castor canadensis,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1941,FMNH
+Mammalia,Ictidomys tridecemlineatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mustela frenata,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Reithrodontomys megalotis,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Tamiasciurus hudsonicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Tamias minimus,South Dakota,"Pine Ridge Indian Reservation, Corrall Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Sylvilagus audubonii,South Dakota,Battle Creek,43.689388,-102.817162,1894,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Microtus longicaudus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Marmota flaviventris,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Thomomys talpoides,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Tamias minimus,South Dakota,"Black Hills, 8 mi NE Hill City, Palmer Gulch",44.010689,-103.459366,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Pine Ridge, Corral Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Thomomys talpoides,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Lepus townsendii,South Dakota,Timber Lake,45.42709,-101.074821,1945,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,Wounded Knee,43.140587,-102.365738,1940,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766686,-103.59877,1894,FMNH
+Mammalia,Neotoma cinerea,South Dakota,Spring Creek,43.791889,-102.82856,1896,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,Wounded Knee,43.140587,-102.365738,1940,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mustela frenata,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Neotoma cinerea,South Dakota,"Pine Ridge, Corral Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,Wounded Knee,43.140587,-102.365738,1940,FMNH
+Mammalia,Neotoma cinerea,South Dakota,"Pine Ridge, Corral Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Lynx rufus,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Microtus longicaudus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Ictidomys tridecemlineatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Thomomys talpoides,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Reithrodontomys megalotis,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,Wounded Knee,43.140587,-102.365738,1940,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Pine Ridge, Corral Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766686,-103.59877,1894,FMNH
+Mammalia,Neotoma cinerea,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Taxidea taxus,South Dakota,Edgemont,43.301075,-103.82547,1924,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Pine Ridge, Corral Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Tamias minimus,South Dakota,"Black Hills, 8 mi NE Hill City, Palmer Gulch",44.010689,-103.459366,1943,FMNH
+Mammalia,Canis latrans,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Perognathus fasciatus,South Dakota,"Pine Ridge, Corrall Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Ictidomys tridecemlineatus,South Dakota,Custer,43.766686,-103.59877,1894,FMNH
+Mammalia,Neotoma cinerea,South Dakota,Hill City,43.932484,-103.575172,1894,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,Wounded Knee,43.140587,-102.365738,1940,FMNH
+Mammalia,Tamiasciurus hudsonicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Tamias minimus,South Dakota,"Pine Ridge Indian Reservation, Corrall Draw",43.025585,-102.556244,1894,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Ictidomys tridecemlineatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Microtus longicaudus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Thomomys talpoides,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Cynomys ludovicianus,South Dakota,Pine Ridge Indian Reservation,43.625294,-102.25074,1894,FMNH
+Mammalia,Mephitis mephitis,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Aves,Passerina amoena,South Dakota,Vermillion,42.77944,-96.92917,1879,MCZ
+Aves,Eremophila alpestris,South Dakota,NA,42.91667,-96.95861,1882,MCZ
+Aves,Calcarius ornatus,South Dakota,Petrodie,44.61941,-97.87606,1888,MCZ
+Aves,Eremophila alpestris,South Dakota,Vermillion,42.77944,-96.92917,1877,MCZ
+Amphibia,Spea bombifrons,South Dakota,Buffalo,45.58,-103.55,1925,KU
+Amphibia,Lithobates pipiens,South Dakota,3 mi WSW Scenic,43.76,-102.61,1946,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Spea bombifrons,South Dakota,Buffalo,45.58,-103.55,1925,KU
+Amphibia,Spea bombifrons,South Dakota,Buffalo,45.58,-103.55,1925,KU
+Amphibia,Lithobates pipiens,South Dakota,3 mi WSW Scenic,43.76,-102.61,1946,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Lithobates pipiens,South Dakota,2 mi N Eagle Butte,45.03,-101.23,1947,KU
+Amphibia,Spea bombifrons,South Dakota,Buffalo,45.58,-103.55,1925,KU
+Amphibia,Spea bombifrons,South Dakota,Buffalo,45.58,-103.55,1925,KU
+Mammalia,Peromyscus maniculatus,South Dakota,"Scenic, Big Badlands",43.766667,-102.533333,1929,ROM
+Aves,Eremophila alpestris,South Dakota,Vermillion,42.77944,-96.92917,1877,MCZ
+Aves,Falco peregrinus,South Dakota,Webster,45.33222,-97.51972,1905,MCZ
+Aves,Calamospiza melanocorys,South Dakota,"Armour Douglas ES, South Dakota, USA",44.5003,-100.2507,1911,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Leucophaeus pipixcan,South Dakota,"Harrison, South Dakota, USA",44.5003,-100.2507,1890,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Calcarius ornatus,South Dakota,"Miner, South Dakota, USA",44.5003,-100.2507,1896,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Phalaropus tricolor,South Dakota,"Clay, South Dakota, USA",44.5003,-100.2507,1882,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Athene cunicularia,South Dakota,"Utica, Utica, South Dakota, USA",44.5003,-100.2507,1918,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Xanthocephalus xanthocephalus,South Dakota,"South Dakota, USA",44.5003,-100.2507,1890,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Anser caerulescens,South Dakota,"Vermillion, Vermillion, South Dakota, USA",44.5003,-100.2507,1879,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Junco hyemalis,South Dakota,"Long Ranch, Pennington, South Dakota, USA",44.5003,-100.2507,1932,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Junco hyemalis,South Dakota,"Long Ranch, N of Rapid, Rapid, Pennington, South Dakota, USA",44.5003,-100.2507,1932,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Calcarius lapponicus,South Dakota,"Tripp, Tripp, South Dakota, USA",44.5003,-100.2507,1916,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Podiceps nigricollis,South Dakota,"Miller's Lake, Sanborn, South Dakota, USA",44.5003,-100.2507,1921,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Grus canadensis,South Dakota,"Vermillion, Vermillion, South Dakota, USA",44.5003,-100.2507,1878,"Ohio State University - Bird Division, Columbus, OH (OSUM)"
+Aves,Colinus virginianus,South Dakota,Vermillion,42.77944,-96.92889,1877,MCZ
+Aves,Bartramia longicauda,South Dakota,Big Sioux River,43.56667,-96.6,1864,MCZ
+Aves,Centronyx henslowii,South Dakota,Moody Co.,44.03333,-96.66667,1882,MCZ
+Aves,Limosa haemastica,South Dakota,NA,44.023775,-98.090729,1896,SDNHM
+Aves,Limosa haemastica,South Dakota,NA,44.023775,-98.090729,1896,SDNHM
+Aves,Spiza americana,South Dakota,NA,44.023775,-98.090729,1922,SDNHM
+Aves,Megaceryle alcyon,South Dakota,Forestburg,44.023434,-98.10482,1906,SDNHM
+Aves,Numenius americanus,South Dakota,Fort Bennett,44.541548,-100.721283,1921,SDNHM
+Aves,Numenius americanus,South Dakota,Fort Bennett,44.541548,-100.721283,1921,SDNHM
+Aves,Buteo jamaicensis,South Dakota,NA,42.88977,-96.981506,1931,SDNHM
+Aves,Melospiza melodia,South Dakota,NA,42.88977,-96.981506,1920,SDNHM
+Aves,Melospiza melodia,South Dakota,NA,42.88977,-96.981506,1919,SDNHM
+Aves,Melospiza melodia,South Dakota,Vermillion,42.88977,-96.981506,1913,SDNHM
+Aves,Melospiza melodia,South Dakota,White River,43.568054,-100.745418,1913,SDNHM
+Aves,Ixobrychus exilis,South Dakota,NA,44.023775,-98.090729,1921,SDNHM
+Aves,Lanius ludovicianus,South Dakota,NA,42.88977,-96.981506,1920,SDNHM
+Aves,Calcarius lapponicus,South Dakota,Woonsocket,44.053597,-98.272253,1919,SDNHM
+Aves,Calcarius lapponicus,South Dakota,Woonsocket,44.053597,-98.272253,1919,SDNHM
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tringa solitaria,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Cistothorus platensis,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Fulica americana,South Dakota,Ipswich,45.444418,-99.029278,1932,ANSP
+Aves,Passerculus sandwichensis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Chordeiles minor,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Sturnella neglecta,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Eremophila alpestris,South Dakota,Mobrogi,44.212734,-100.246853,1932,ANSP
+Aves,Buteo regalis,South Dakota,Medicine Creek,44.108879,-99.696781,1881,ANSP
+Aves,Ammodramus savannarum,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Mouth of little cheyenne,44.212734,-100.246853,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Spizella pallida,South Dakota,Sioux reservation,44.212734,-100.246853,1893,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Falco sparverius,South Dakota,"SWAN LAKE, MISSOURI RIVER",43.220189,-97.101288,1881,ANSP
+Aves,Lanius ludovicianus,South Dakota,NA,44.212734,-100.246853,1879,ANSP
+Aves,Ammodramus savannarum,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Molothrus ater,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Ammodramus savannarum,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Anthus spragueii,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Ammodramus savannarum,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Sturnella neglecta,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tringa solitaria,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Buteo jamaicensis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Falco mexicanus,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Spizella pallida,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Ammodramus savannarum,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tringa flavipes,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Tringa semipalmata,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,Wessington hills,44.334709,-98.80093,1881,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Centronyx bairdii,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Aix sponsa,South Dakota,Ft thompson,44.212734,-100.246853,1891,ANSP
+Aves,Spizella pallida,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Centronyx bairdii,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Tringa melanoleuca,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Centronyx bairdii,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Falco mexicanus,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Sturnella neglecta,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tringa melanoleuca,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Spiza americana,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Centronyx bairdii,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Passerina amoena,South Dakota,"SWAN LAKE, MISSOURI RI.",43.220264,-97.093105,1881,ANSP
+Aves,Centronyx bairdii,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Centronyx bairdii,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Chordeiles minor,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Spatula clypeata,South Dakota,NA,44.212734,-100.246853,1892,ANSP
+Aves,Molothrus ater,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Spizella pallida,South Dakota,NA,44.212734,-100.246853,1879,ANSP
+Aves,Ammodramus savannarum,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Lanius ludovicianus,South Dakota,NA,44.212734,-100.246853,1879,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Colaptes auratus,South Dakota,"SWAN LAKE, MESSAIM R.",43.220264,-97.093105,1881,ANSP
+Aves,Calidris himantopus,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Spizella pallida,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Falco sparverius,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Falco mexicanus,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Chordeiles minor,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Buteo swainsoni,South Dakota,Lemmon,45.939499,-102.160034,1932,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Falco sparverius,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Spiza americana,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Centronyx bairdii,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calidris minutilla,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Passerculus sandwichensis,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Melospiza melodia,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,Wessuata hills,44.212734,-100.246853,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Lanius ludovicianus,South Dakota,NA,44.212734,-100.246853,1879,ANSP
+Aves,Chordeiles minor,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Bombycilla garrulus,South Dakota,Custer,43.766686,-103.59877,1896,ANSP
+Aves,Tringa flavipes,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Anthus spragueii,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Zonotrichia querula,South Dakota,White river,43.568054,-100.745418,1913,ANSP
+Aves,Calcarius ornatus,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Medicine creek,44.108879,-99.696781,1881,ANSP
+Aves,Athene cunicularia,South Dakota,Mouth of little cheyenne,44.212734,-100.246853,1881,ANSP
+Aves,Chordeiles minor,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Ammodramus savannarum,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Falco mexicanus,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Sturnella neglecta,South Dakota,Andover,45.410229,-97.902599,1932,ANSP
+Aves,Tyrannus verticalis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Aves,Calamospiza melanocorys,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Buteo swainsoni,South Dakota,De Smet,44.385219,-97.550354,1884,ANSP
+Aves,Chordeiles minor,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tringa semipalmata,South Dakota,Huron,44.363319,-98.21426,1881,ANSP
+Aves,Tyrannus verticalis,South Dakota,NA,44.212734,-100.246853,1881,ANSP
+Mammalia,Peromyscus maniculatus,South Dakota,Medicine Mts,43.9118795,-103.7143682,1936,LSUMZ
+Mammalia,Ondatra zibethicus,South Dakota,Sand Lake Refuge,45.7578942,-98.2512238,1944,LSUMZ
+Aves,Colinus virginianus,South Dakota,Vermillion,42.77944,-96.92889,1877,MCZ
+Aves,Bombycilla garrulus,South Dakota,Deadwood,44.37667,-103.72917,1891,MCZ
+Aves,Colinus virginianus,South Dakota,Vermillion,42.77944,-96.92889,1877,MCZ
+Aves,Centronyx henslowii,South Dakota,Moody Co.,44.03333,-96.66667,1882,MCZ
+Aves,Anser caerulescens,South Dakota,Vermilion,42.77944,-96.92917,1879,MCZ
+Aves,Colinus virginianus,South Dakota,Vermillion,42.77944,-96.92889,1877,MCZ
+Aves,Centronyx henslowii,South Dakota,Moody Co.,44.03333,-96.66667,1883,MCZ
+Aves,Eremophila alpestris,South Dakota,Vermilion,42.77944,-96.92917,1877,MCZ
+Aves,Rallus elegans,South Dakota,NA,42.73333,-96.96667,1882,MCZ
+Aves,Pica hudsonia,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Cinclus mexicanus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Vireo plumbeus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Gymnorhinus cyanocephalus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Sitta carolinensis,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Vireo olivaceus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Poecile atricapillus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Turdus migratorius,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Gymnorhinus cyanocephalus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Vireo plumbeus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Piranga ludoviciana,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Sturnella neglecta,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Sialia currucoides,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Chondestes grammacus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Geothlypis trichas,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Sialia currucoides,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Spizella passerina,South Dakota,"Black Hills, Spearfish Canyon",44.406309,-103.900903,1941,CUMV
+Aves,Pipilo maculatus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Cinclus mexicanus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Pipilo maculatus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Leucophaeus pipixcan,South Dakota,Lake Thompson,44.277456,-97.458267,1922,CUMV
+Aves,Gymnorhinus cyanocephalus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Cinclus mexicanus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Piranga ludoviciana,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Tachycineta thalassina,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Poecile atricapillus,South Dakota,Nemo,44.194157,-103.504909,1941,CUMV
+Aves,Troglodytes aedon,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Sturnella neglecta,South Dakota,Rapid City,44.074917,-103.218342,1933,CUMV
+Aves,Cinclus mexicanus,South Dakota,"Black Hills, Spearfish Canyon",44.406309,-103.900903,1941,CUMV
+Aves,Myadestes townsendi,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Vireo plumbeus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Empidonax occidentalis,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Tympanuchus phasianellus,South Dakota,Dark Canyon,44.048889,-103.339288,1948,CUMV
+Aves,Tympanuchus phasianellus,South Dakota,Dark Canyon,44.048889,-103.339288,1948,CUMV
+Aves,Circus cyaneus,South Dakota,Armour,43.318600000000004,-98.34675,1910,CUMV
+Aves,Cinclus mexicanus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Myadestes townsendi,South Dakota,Mount Terry,44.327517,-103.8357,1941,CUMV
+Aves,Vireo plumbeus,South Dakota,South Canyon,44.089165,-103.302988,1948,CUMV
+Aves,Troglodytes aedon,South Dakota,Rapid City area,44.074917,-103.218342,1860,CUMV
+Aves,Buteo regalis,South Dakota,Dupree,45.049524,-101.601543,1860,CUMV
+Aves,Pica pica,South Dakota,Chilson,43.233334,-103.616669,1890,UMMZ
+Aves,Tyrannus verticalis,South Dakota,no specific locality,42.883335,-96.966667,1882,UMMZ
+Aves,Spiza americana,South Dakota,Wolsey,44.400002,-98.466667,1924,UMMZ
+Aves,Junco hyemalis,South Dakota,Spearfish,44.483334,-103.866669,1936,UMMZ
+Aves,Pipilo erythrophthalmus,South Dakota,Chilson Canon,43.233334,-103.616669,1890,UMMZ
+Aves,Passerculus sandwichensis,South Dakota,Wolsey,44.400002,-98.466667,1924,UMMZ
+Aves,Calcarius ornatus,South Dakota,New Underwood,44.099998,-102.833336,1936,UMMZ
+Aves,Junco hyemalis,South Dakota,Redfern,44,-103.650002,1910,UMMZ
+Mammalia,Zapus hudsonius,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Sorex cinereus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Sorex cinereus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Sorex cinereus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Sylvilagus nuttallii,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Sorex cinereus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Sorex cinereus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Sylvilagus nuttallii,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Sylvilagus nuttallii,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Sorex cinereus,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Myodes gapperi,South Dakota,Custer,42.766667,-103.6,1928,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Custer,43.766667,-103.6,1929,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Custer,43.766667,-103.6,1929,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Chaetodipus hispidus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Chaetodipus hispidus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Chaetodipus hispidus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Chaetodipus hispidus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Scenic,43.783333,-102.55,1928,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Scenic,43.783333,-102.55,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Scenic,43.783333,-102.55,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Scenic,43.783333,-102.55,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Scenic,43.783333,-102.55,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Scenic,43.783333,-102.55,1928,UCLA
+Mammalia,Tamias minimus,South Dakota,Scenic,43.783333,-102.55,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys montanus,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Frankfort,44.883333,-98.3,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Frankfort,44.883333,-98.3,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Fort pierre,44.35,-100.366667,1928,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Fort pierce,44.2,-100.366667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Frankfort,44.883333,-98.3,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Frankfort,44.883333,-98.3,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Watertown,44.75,-97.116667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Frankfort,44.883333,-98.3,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Watertown,44.75,-97.116667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Watertown,44.75,-97.116667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Watertown,44.75,-97.116667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Watertown,44.75,-97.116667,1928,UCLA
+Mammalia,Urocitellus richardsonii,South Dakota,Watertown,44.75,-97.116667,1928,UCLA
+Mammalia,Marmota monax,South Dakota,Custer,43.766667,-103.6,1928,UCLA
+Mammalia,Cynomys ludovicianus,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Geomys lutescens,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Geomys lutescens,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Geomys lutescens,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Geomys lutescens,South Dakota,Oglala,43.283333,-102.733333,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Reithrodontomys montanus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Neotoma cinerea,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Neotoma cinerea,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Mus musculus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus longicaudus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Ictidomys tridecemlineatus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Microtus ochrogaster,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Marmota flaviventris,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Reithrodontomys megalotis,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamias minimus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Tamiasciurus hudsonicus,South Dakota,Rochford,44.116667,-103.7,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Mus musculus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus maniculatus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Myotis lucifugus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Neotoma cinerea,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Microtus pennsylvanicus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Peromyscus leucopus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Thomomys talpoides,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Sorex cinereus,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Mammalia,Zapus hudsonius,South Dakota,Spearfish,44.483333,-103.866667,1927,UCLA
+Aves,Eremophila alpestris,South Dakota,Vermilion,42.77944,-96.92917,1877,MCZ
+Aves,Colinus virginianus,South Dakota,Vermillion,42.77944,-96.92889,1877,MCZ
+Aves,Botaurus lentiginosus,South Dakota,Harrison,43.42972,-98.52694,1891,MCZ
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Tamias minimus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Zapus hudsonius,South Dakota,Batesland,43.128094,-102.101524,1939,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Perognathus flavescens,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Tamias minimus,South Dakota,"Black Hills, 8 mi SE Hill City, Palmer Gulch",43.851788,-103.464172,1943,FMNH
+Mammalia,Microtus pennsylvanicus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Zapus hudsonius,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Peromyscus maniculatus,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Microtus longicaudus,South Dakota,"Black Hills, Palmer Gulch",43.904884,-103.52607,1943,FMNH
+Mammalia,Reithrodontomys megalotis,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Ictidomys tridecemlineatus,South Dakota,Custer,43.766686,-103.59877,1894,FMNH
+Mammalia,Dipodomys ordii,South Dakota,"Batesland, Big Spring Canon",43.128094,-102.101524,1939,FMNH
+Mammalia,Taxidea taxus,South Dakota,near Rapid City,44.080589,-103.231056,1935,FMNH
+Aves,Eremophila alpestris,South Dakota,NA,44.04167,-96.65861,1882,MCZ
+Aves,Ammodramus savannarum,South Dakota,Huron,44.36333,-98.21389,1885,MCZ
+Aves,Tyrannus verticalis,South Dakota,Wolsey,44.40778,-98.47444,1924,TCWC
+Mammalia,Ictidomys tridecemlineatus,South Dakota,Sioux Falls,43.549994,-96.700005,1935,UCM
+Mammalia,Urocitellus richardsonii,South Dakota,Mellette,45.154435,-98.497224,1935,UCM
+Mammalia,Peromyscus maniculatus,South Dakota,Sioux Falls,43.549994,-96.700005,1935,UCM
+Mammalia,Sylvilagus floridanus,South Dakota,10 miles N of Plankinton,43.860301,-98.484535,1946,UCM
+Mammalia,Ictidomys tridecemlineatus,South Dakota,Sioux Falls,43.549994,-96.700005,1935,UCM
+Aves,Chlidonias niger,South Dakota,Miner,44.05,-97.75002,1894,NA
+Amphibia,Lithobates pipiens,South Dakota,T30W R38N LITTLE WHITE RIVER ROSEBUD INDIAN RES,43.000716,-102.83663,1934,UMMZ
+Amphibia,Anaxyrus woodhousii,South Dakota,Cedar pass,43.75528,-101.93556,1913,UMMZ
+Aves,Colaptes auratus,South Dakota,Belle Fourche,44.6684732,-103.8497801,1936,MVZ
+Squamata,Thamnophis radix,South Dakota,"Andover, 5 mi E",45.41,-97.9,1949,PSM
+Squamata,Crotalus viridis,South Dakota,Badlands,43.755225,-102.369232,1947,PSM
+Squamata,Crotalus viridis,South Dakota,"Murdo, 10 mi W",43.89,-100.71,1947,PSM
+Squamata,Thamnophis radix,South Dakota,"Presho, 4 mi E",43.91,-100.06,1947,PSM
+Squamata,Heterodon nasicus,South Dakota,"Chamberlain, 5 mi E",43.81,-99.33,1947,PSM
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,18 mi NE Winner,43.56,-99.6,1942,KU
+Squamata,Crotalus viridis,South Dakota,Rapid City,44.08,-103.23,1940,KU
+Squamata,Crotalus viridis,South Dakota,Rapid City,44.08,-103.23,1940,KU
+Squamata,Crotalus viridis,South Dakota,Rapid City,44.08,-103.23,1940,KU
+Squamata,Crotalus viridis,South Dakota,Rapid City,44.08,-103.23,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,Rapid City,44.08,-103.23,1940,KU
+Squamata,Crotalus viridis,South Dakota,18 mi NE Winner,43.56,-99.6,1942,KU
+Squamata,Crotalus viridis,South Dakota,18 mi NE Winner,43.56,-99.6,1942,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Crotalus viridis,South Dakota,14 mi S Hot Springs,43.23,-103.47,1940,KU
+Squamata,Coluber constrictor,South Dakota,Winner,43.38,-99.86,1942,KU
+Squamata,Crotalus viridis,South Dakota,6 mi N Hamil,43.68157,-99.68134,1945,KU
+Squamata,Heterodon nasicus,South Dakota,4 mi S Colome,43.2,-99.71,1933,KU
+Squamata,Aspidoscelis sexlineatus,South Dakota,Cheyenne River,43.48,-103.1,1926,KU
+Squamata,Aspidoscelis sexlineatus,South Dakota,Cheyenne River,43.48,-103.1,1926,KU
+Squamata,Aspidoscelis sexlineatus,South Dakota,Cheyenne River,43.48,-103.1,1926,KU
+Squamata,Sceloporus undulatus,South Dakota,SE in Sand Hills,43.219,-101.675,1924,KU
+Squamata,Sceloporus undulatus,South Dakota,SE in Sand Hills,43.219,-101.675,1924,KU
+Squamata,Holbrookia maculata,South Dakota,SE area of county,43.219,-101.675,1924,KU
+Squamata,Holbrookia maculata,South Dakota,SE area of county,43.219,-101.675,1924,KU
+Squamata,Heterodon nasicus,South Dakota,Barnard,45.73,-98.5,1931,LACM
+Testudines,Chrysemys picta,South Dakota,Herrick,43.23,-99.43,1942,CAS
+Squamata,Heterodon nasicus,South Dakota,Carter: So Dakota,43.39,-100.2,1926,MCZ
+Squamata,Crotalus atrox,South Dakota,Carter: So Dakota,43.39,-100.2,1926,MCZ
+Squamata,Pituophis catenifer,South Dakota,Carter: So Dakota,43.39,-100.2,1925,MCZ
+Squamata,Crotalus viridis,South Dakota,"Wall, 4 mi S of",43.99,-102.24,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 4 mi S of",43.99,-102.24,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1949,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1948,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1948,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1948,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1948,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, 5 mi S of",43.5,-100.48,1948,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 5 mi NW of",43.99,-102.24,1946,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 5 mi NW of",43.99,-102.24,1946,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Kimball; 11 mi W of,43.75,-98.96,1939,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Newunderwood; 5 mi W of,44.07375,-102.93235,1939,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Buffalo; 14 mi NW of,45.58,-103.55,1944,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Buffalo; 14 mi NW of,45.58,-103.55,1944,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Buffalo; 14 mi NW of,45.58,-103.55,1944,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Buffalo; 14 mi NW of,45.58,-103.55,1944,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Buffalo; 14 mi NW of,45.58,-103.55,1944,SDNHM
+Squamata,Pituophis catenifer,South Dakota,"Eagle Butte and Cheyenne Ageny, between",45,-101.23,1943,SDNHM
+Squamata,Pituophis catenifer,South Dakota,"Eagle Butte and Cheyenne Ageny, between",45,-101.23,1943,SDNHM
+Squamata,Pituophis catenifer,South Dakota,"Eagle Butte and Cheyenne Ageny, between",45,-101.23,1943,SDNHM
+Squamata,Pituophis catenifer,South Dakota,"Eagle Butte and Cheyenne Ageny, between",45,-101.23,1943,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,Belle Fouche,44.67207,-103.84971,1941,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Interior, 4 mi E of",43.73,-101.98,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Vivian, 14 mi SW of",43.78355,-100.49046,1939,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, Rattlesnake Butte S of",44.94993,-101.85826,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wood, Rattlesnake Butte S of",44.94993,-101.85826,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,Buffalo,45.58,-103.55,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 3 mi W of",43.99,-102.24,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 3 mi W of",43.99,-102.24,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 3 mi W of",43.99,-102.24,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 3 mi W of",43.99,-102.24,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 3 mi W of",43.99,-102.24,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 3 mi W of",43.99,-102.24,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Wall, 3 mi W of",43.99,-102.24,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Quinn, 20 mi N of",43.99,-102.13,1938,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Dixon, NE of",43.38,-99.47,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Timber Lake, 14 mi SE of",45.44,-101.07,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Bonesteel, near",43.08,-98.94,1937,SDNHM
+Squamata,Crotalus viridis,South Dakota,Wall,43.99,-102.24,1935,SDNHM
+Squamata,Crotalus viridis,South Dakota,Creighton,44.26,-102.21,1935,SDNHM
+Squamata,Crotalus viridis,South Dakota,Creighton,44.26,-102.21,1935,SDNHM
+Squamata,Crotalus viridis,South Dakota,Pierre;  (?),44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1934,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Pierre, vicinity of",44.37,-100.35,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,Thunder Hawk; 10 mi S of,45.94,-101.97,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,Thunder Hawk; 10 mi S of,45.94,-101.97,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,Thunder Hawk; 10 mi S of,45.94,-101.97,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,Thunder Hawk; 10 mi S of,45.94,-101.97,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,Thunder Hawk; 10 mi S of,45.94,-101.97,1933,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Fort Pierre, 8.5 mi SSE of",44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Van Metre (Jones Co.); 4 mi NW of,44.21523,-100.85066,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Teton; 15 mi W of Pierre,44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Teton; 15 mi W of Pierre,44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Teton; 15 mi W of Pierre,44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Teton; 15 mi W of Pierre,44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Teton; 15 mi W of Pierre,44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Teton; 15 mi W of Pierre,44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Teton; 15 mi W of Pierre,44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Fort Pierre; 8.5 mi SE of,44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Fort Pierre; 8.5 mi SE of,44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Fort Pierre; 8.5 mi SE of,44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Onida, 4.5 mi W of and 2 mi N of",44.71,-100.06,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Fort Pierre; 8.5 mi SE of,44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Fort Pierre; 8.5 mi SE of,44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Fort Pierre; 8.5 mi SE of,44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,Fort Pierre; 8.5 mi SE of,44.35,-100.37,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Teton, 15 mi W of Pierre",44.29,-100.51,1932,SDNHM
+Squamata,Pituophis catenifer,South Dakota,Deadwood,44.38,-103.73,1931,SDNHM
+Squamata,Crotalus viridis,South Dakota,"Deadwood, 15 mi S of",44.38,-103.73,1931,SDNHM
+Testudines,Chrysemys picta,South Dakota,North Cave Hills,45.83,-103.47,1910,UNSM
+Testudines,Chrysemys picta,South Dakota,North Cave Hills,45.83,-103.47,1910,UNSM
+Testudines,Chrysemys picta,South Dakota,North Cave Hills,45.83,-103.47,1910,UNSM
+Squamata,Crotalus viridis,South Dakota,14 mi. N of Cheyenne Agency,44.97275,-100.72,1934,UNSM
+Squamata,Opheodrys vernalis,South Dakota,10 mi. NW Lead,44.45,-103.91,1939,UNSM
+Squamata,Thamnophis radix,South Dakota,Vermillion,42.78,-96.93,1913,UNSM
+Squamata,Opheodrys vernalis,South Dakota,Big Stone Lake,45.312805,-96.473007,1923,UNSM
+Squamata,Thamnophis elegans,South Dakota,Mayo,43.680328,-103.603694,1914,UNSM
+Squamata,Storeria occipitomaculata,South Dakota,Sioux Falls,43.56,-96.72,1916,UNSM
+Squamata,Storeria dekayi,South Dakota,Big Stone Lake,45.312805,-96.473007,1922,UNSM
+Squamata,Phrynosoma brevirostris,South Dakota,Crow Buttes,45.23,-103.55,1912,UNSM
+Squamata,Coluber constrictor,South Dakota,14 mi. N of Cheyenne Agency,44.97275,-100.72,1934,UNSM
+Squamata,Plestiodon septentrionalis,South Dakota,Near Volin,42.96,-97.18,1915,UNSM
+Squamata,Tropidoclonion lineatum,South Dakota,N of Sioux Falls,43.56,-96.72,1916,UNSM
+Squamata,Tropidoclonion lineatum,South Dakota,"Brule Creek, 12 mi. E of Vermillion",42.74,-96.64,1923,UNSM
+Squamata,Diadophis punctatus,South Dakota,Near Elk Point,42.68,-96.68,1933,UNSM
+Squamata,Lampropeltis triangulum,South Dakota,Vermillion,42.78,-96.93,1916,UNSM
+Squamata,Lampropeltis triangulum,South Dakota,Lucas,43.29,-99.22,1930,UNSM
+Squamata,Heterodon nasicus,South Dakota,Clear Lake,44.75,-96.66,1936,UNSM
+Squamata,Crotalus viridis,South Dakota,Winner,43.38,-99.86,1942,UNSM
+Squamata,Lampropeltis triangulum,South Dakota,Yankton,42.88746,-97.3887,1933,TNHC
+Squamata,Crotalus viridis,South Dakota,Winner,43.37667,-99.85901,1942,TNHC
+Squamata,Sceloporus consobrinus,South Dakota,Sandhills around Martin,43.1725,-101.73265,1925,TNHC
+Testudines,Chelydra serpentina,South Dakota,Brookings,44.31136,-96.79839,1925,TNHC
+Squamata,Coluber constrictor,South Dakota,Rapid City,44.06772,-103.22964,1930,TNHC
+Squamata,Crotalus viridis,South Dakota,Winner,43.37667,-99.85901,1942,TNHC
+Squamata,Sceloporus consobrinus,South Dakota,Sandhills around Martin,43.1725,-101.73265,1925,TNHC
+Squamata,Crotalus viridis,South Dakota,Winner,43.37667,-99.85901,1942,TNHC
+Squamata,Sceloporus consobrinus,South Dakota,Sandhills around Martin,43.1725,-101.73265,1925,TNHC
+Squamata,Coluber constrictor,South Dakota,"Yankton, trails W of town",42.86708,-97.51968,1924,TNHC
+Squamata,Heterodon nasicus,South Dakota,Lake Poinsett,44.56467,-97.07712,1925,TNHC
+Squamata,Heterodon platirhinos,South Dakota,Chamberlain,43.81083,-99.33066,1943,TNHC
+Squamata,Holbrookia maculata,South Dakota,Sandhills around Martin,43.1725,-101.73265,1925,TNHC
+Squamata,Thamnophis sirtalis,South Dakota,Martin,43.1725,-101.73265,1924,TNHC
+Squamata,Pantherophis ramspotti,South Dakota,Cactus Hills,43.5697,-96.67227,1905,TNHC
+Squamata,Crotalus viridis,South Dakota,Winner,43.37667,-99.85901,1942,TNHC
+Squamata,Heterodon nasicus,South Dakota,Redfield,44.87581,-98.51871,1928,TNHC
+Squamata,Pantherophis ramspotti,South Dakota,Cactus Hills,43.5697,-96.67227,1905,TNHC
+Squamata,Crotalus viridis,South Dakota,Winner,43.37667,-99.85901,1942,TNHC
+Squamata,Sceloporus consobrinus,South Dakota,Sandhills around Martin,43.1725,-101.73265,1925,TNHC
+Squamata,Holbrookia maculata,South Dakota,Sandhills around Martin,43.1725,-101.73265,1925,TNHC
+Squamata,Pituophis catenifer,South Dakota,Yankton,42.88746,-97.3887,1923,TNHC
+Squamata,Heterodon nasicus,South Dakota,Bryant Lake near Chester,43.92095,-96.94773,1942,TNHC
+Squamata,Opheodrys vernalis,South Dakota,3 MI S E OF HILL CITY,43.901752,-103.532529,1948,UMMZ
+Squamata,Thamnophis radix,South Dakota,9 MI S KADOKA,43.703524,-101.509866,1934,UMMZ
+Testudines,Chrysemys picta,South Dakota,8 MI S KADOKA,43.718008,-101.509866,1934,UMMZ
+Squamata,Opheodrys vernalis,South Dakota,FRENCH CR 3 MI E CUSTER,43.768847,-103.536026,1934,UMMZ
+Squamata,Thamnophis radix,South Dakota,8 MI E KADOKA,43.83377,-101.349231,1934,UMMZ
+Squamata,Thamnophis elegans,South Dakota,GRACE COOLIDGE CR ST GAME LODGE,43.82677,-103.220149,1934,UMMZ
+Squamata,Thamnophis elegans,South Dakota,GRACE COOLIDGE CR 3 MI ABOVE GAME LODGE,43.794233,-103.412939,1934,UMMZ
+Squamata,Thamnophis sirtalis,South Dakota,FRENCH CR 5 MI E CUSTER,43.764908,-103.513817,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,8 1/2 MI S E FT PIERRE,44.266481,-100.252006,1932,UMMZ
+Squamata,Thamnophis elegans,South Dakota,FRENCH CR 3 MI E CUSTER,43.768847,-103.536026,1934,UMMZ
+Squamata,Coluber constrictor,South Dakota,7 MI S KADOKA,43.732492,-101.509866,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,8 1/2 MI S E FT PIERRE,44.266481,-100.252006,1932,UMMZ
+Squamata,Crotalus viridis,South Dakota,ABOVE MOUTH PASS CR 10 MI S KADOKA,43.749717,-101.469311,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,8 1/2 MI S E FT PIERRE,44.266481,-100.252006,1932,UMMZ
+Squamata,Thamnophis sirtalis,South Dakota,2 MI ABOVE STATE GAME LODGE,43.800069,-103.383804,1934,UMMZ
+Testudines,Terrapene ornata,South Dakota,KODAK PT 12 MI S KADOKA,43.66833,-101.540145,1934,UMMZ
+Squamata,Thamnophis elegans,South Dakota,FRENCH CR 5 MI E CUSTER,43.764908,-103.513817,1934,UMMZ
+Squamata,Coluber constrictor,South Dakota,WIND CAVE NATIONAL PARK,43.602143,-103.431172,1949,UMMZ
+Squamata,Crotalus viridis,South Dakota,10 MI S KADOKA,43.68904,-101.509866,1934,UMMZ
+Squamata,Thamnophis radix,South Dakota,10 MI S E KADOKA,43.731375,-101.367884,1934,UMMZ
+Squamata,Thamnophis radix,South Dakota,10 MI S E KADOKA,43.731375,-101.367884,1934,UMMZ
+Testudines,Chrysemys picta,South Dakota,HAY CR 25 MI S E KADOKA,43.550842,-101.427283,1934,UMMZ
+Squamata,Thamnophis radix,South Dakota,VERMILLION,42.779442,-96.92921,1913,UMMZ
+Squamata,Thamnophis sirtalis,South Dakota,FRENCH CR 3 MI E CUSTER,43.768847,-103.536026,1934,UMMZ
+Squamata,Thamnophis sirtalis,South Dakota,4 MI E PRINGLE,43.608564,-103.513787,1931,UMMZ
+Squamata,Thamnophis radix,South Dakota,BELVIDERE,43.831937,-101.271531,1931,UMMZ
+Squamata,Coluber constrictor,South Dakota,10 MI S KADOKA,43.68904,-101.509866,1934,UMMZ
+Squamata,Coluber constrictor,South Dakota,7 MI S KADOKA,43.732492,-101.509866,1934,UMMZ
+Squamata,Thamnophis radix,South Dakota,DOG EAR LAKE,43.168892,-99.89234,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Thamnophis elegans,South Dakota,16 MI N W CUSTER,43.930298,-103.825724,1935,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Thamnophis elegans,South Dakota,GRACE COOLIDGE CR ST GAME LODGE,43.82677,-103.220149,1934,UMMZ
+Squamata,Thamnophis sirtalis,South Dakota,1 MI ABOVE STATE GAME LODGE,43.785584,-103.383804,1934,UMMZ
+Squamata,Thamnophis radix,South Dakota,1 MI W KADOKA,43.83388,-101.529945,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Thamnophis radix,South Dakota,9 1/2 MI S E KADOKA,43.736505,-101.374983,1934,UMMZ
+Squamata,Thamnophis radix,South Dakota,7 MI S KADOKA,43.732492,-101.509866,1934,UMMZ
+Squamata,Opheodrys vernalis,South Dakota,HILL CITY,43.932486,-103.575193,1949,UMMZ
+Squamata,Thamnophis radix,South Dakota,7 MI S KADOKA,43.732492,-101.509866,1934,UMMZ
+Squamata,Thamnophis sirtalis,South Dakota,7 MI N E HOT SPRINGS BEAVER CR,43.521396,-103.371671,1935,UMMZ
+Testudines,Chrysemys picta,South Dakota,FOUNTAINPERISH CR 8 MI S KADOKA,43.718008,-101.509866,1934,UMMZ
+Squamata,Opheodrys vernalis,South Dakota,GRACE COOLIDGE CR 4 MI ABOVE ST GAME LODGE,43.804432,-103.418333,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Thamnophis sirtalis,South Dakota,GRACE COOLIDGE CR STATE GAME LODGE,43.765434,-103.382223,1934,UMMZ
+Squamata,Coluber constrictor,South Dakota,WIND CAVE NATL PARK SHIRT-TAIL CANYON,43.57391,-103.571278,1948,UMMZ
+Squamata,Thamnophis elegans,South Dakota,GRACE COOLIDGE CR 6 MI ABOVE GAME LODGE,43.804432,-103.418333,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Thamnophis radix,South Dakota,7 MI S W KADOKA,43.762146,-101.609253,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,10 MI S KADOKA,43.68904,-101.509866,1934,UMMZ
+Squamata,Coluber constrictor,South Dakota,7 MI S KADOKA,43.732492,-101.509866,1934,UMMZ
+Squamata,Thamnophis elegans,South Dakota,FRENCH CR 5 MI E CUSTER,43.764908,-103.513817,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,14 MI S KADOKA,43.631103,-101.509866,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,12 MI N W FT PIERRE,44.476356,-100.545612,1933,UMMZ
+Squamata,Coluber constrictor,South Dakota,7 MI S KADOKA,43.732492,-101.509866,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Thamnophis radix,South Dakota,FOUNTAINPERISH CR 7 MI S KADOKA,43.732492,-101.509866,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,15 MI S KADOKA,43.616619,-101.509866,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 MI N W VAN METER [= VAN METRE],44.200379,-100.850852,1932,UMMZ
+Squamata,Thamnophis elegans,South Dakota,GRACE COOLIDGE CR 3 MI ABOVE GAME LODGE,43.794233,-103.412939,1934,UMMZ
+Testudines,Chrysemys picta,South Dakota,ANTELOPE CR ROOSEVELT IND RES,43.279062,-100.582062,1934,UMMZ
+Testudines,Chelydra serpentina,South Dakota,8 MI S KADOKA,43.718008,-101.509866,1934,UMMZ
+Squamata,Crotalus viridis,South Dakota,4 1/2 MI W ONIDA,44.708001,-100.151542,1932,UMMZ
+Squamata,Coluber constrictor,South Dakota,15 MI S KADOKA,43.616619,-101.509866,1934,UMMZ
+Squamata,Lampropeltis gentilis,South Dakota,2 mi. S. Lead Country Club,44.238534,-103.81167,1948,CUMV
+Squamata,Crotalus viridis,South Dakota,2 mi. S. Lead Country Club,44.238534,-103.81167,1948,CUMV
+Squamata,Storeria occipitomaculata,South Dakota,2 mi. S. Lead Country Club,44.238534,-103.81167,1948,CUMV
+Squamata,Thamnophis radix,South Dakota,Black Hawk,44.151553,-103.312813,1948,CUMV
+Testudines,Chrysemys picta,South Dakota,4 mi. E Emery,43.6,-97.54,1940,CUMV
+Squamata,Thamnophis radix,South Dakota,Igloo,43.2,-103.86,1947,CUMV
+Squamata,Thamnophis radix,South Dakota,Igloo,43.2,-103.86,1947,CUMV
+Squamata,Coluber constrictor,South Dakota,Igloo,43.2,-103.86,1947,CUMV
+Squamata,Crotalus viridis,South Dakota,Igloo,43.202472,-103.856867,1947,CUMV
+Squamata,Crotalus viridis,South Dakota,Igloo,43.202472,-103.856867,1947,CUMV
+Squamata,Pituophis catenifer,South Dakota,Igloo,43.202472,-103.856867,1947,CUMV
+Squamata,Pituophis catenifer,South Dakota,Igloo,43.202472,-103.856867,1947,CUMV
+Squamata,Coluber constrictor,South Dakota,Igloo,43.202472,-103.856867,1947,CUMV
+Squamata,Lampropeltis triangulum,South Dakota,Ft. Pierre,44.352836,-100.374061,1932,MSB
+Squamata,Thamnophis radix,South Dakota,Hermosa,43.84,-103.19,1894,USNM
+Squamata,Thamnophis radix,South Dakota,Ardmore,43.02,-103.66,1915,USNM
+Testudines,Chrysemys picta,South Dakota,"Hermosa, Battle Creek",43.83,-103.19,1894,USNM
+Squamata,Opheodrys vernalis,South Dakota,Deadwood,44.38,-103.73,1919,USNM
+Squamata,Crotalus viridis,South Dakota,Pierre,44.3643,-100.342,1938,USNM
+Squamata,Crotalus viridis,South Dakota,"Pierre, ca. 30 mi NW of, near old Ft. Sully",44.6773,-100.749,1935,USNM
+Squamata,Thamnophis elegans,South Dakota,Custer,43.77,-103.6,1893,USNM
+Squamata,Thamnophis radix,South Dakota,Whitlock Crossing,45.0487,-100.265,1947,USNM
+Squamata,Crotalus viridis,South Dakota,"Buffalo, 12 mi NW of",45.58,-103.55,1941,USNM
+Squamata,Thamnophis radix,South Dakota,Thatcher,45.02,-100.93,1947,USNM
+Squamata,Thamnophis radix,South Dakota,Hermosa,43.84,-103.19,1894,USNM
+Squamata,Thamnophis radix,South Dakota,Ardmore,43.02,-103.66,1915,USNM
+Testudines,Chelydra serpentina,South Dakota,"Mitchell, Firesteel Creek",43.7,-97.97,1893,USNM
+Squamata,Crotalus viridis,South Dakota,"Buffalo, 12 mi NW of",45.58,-103.55,1941,USNM
+Squamata,Crotalus viridis,South Dakota,"Buffalo, 12 mi NW of",45.58,-103.55,1941,USNM
+Squamata,Phrynosoma hernandesi,South Dakota,Ardmore,43.02,-103.66,1915,USNM
+Squamata,Coluber constrictor,South Dakota,"Battle Creek, Cheyenne River",43.86,-102.69,1894,USNM
+Squamata,Coluber constrictor,South Dakota,"Rapid Creek, Rapid City",43.9,-102.63,1892,USNM
+Squamata,Phrynosoma hernandesi,South Dakota,Ardmore,43.02,-103.66,1914,USNM
+Squamata,Crotalus viridis,South Dakota,"Pierre, ca. 9 mi W and 5 mi N of",44.4425,-100.502,1935,USNM
+Squamata,Heterodon nasicus,South Dakota,"Watertown, NW of, McMillon Lake",44.9,-97.11,1929,USNM
+Squamata,Crotalus viridis,South Dakota,Cheyenne River Agency,44.77,-100.72,1892,USNM
+Squamata,Coluber constrictor,South Dakota,Rosebud Agency,43.23,-100.85,1891,USNM
+Squamata,Crotalus viridis,South Dakota,"Dupree, near",45.05,-101.6,1941,USNM
+Squamata,Heterodon nasicus,South Dakota,Chamberlain,43.81,-99.33,1893,USNM
+Squamata,Crotalus viridis,South Dakota,"Buffalo, 12 mi NW of",45.58,-103.55,1941,USNM
+Squamata,Heterodon nasicus,South Dakota,Lake Andes,43.16,-98.54,1911,USNM
+Squamata,Storeria occipitomaculata,South Dakota,Hill City,43.93,-103.57,1891,USNM
+Testudines,Chrysemys picta,South Dakota,Chamberlain,43.81,-99.33,1893,USNM
+Squamata,Thamnophis radix,South Dakota,Ardmore,43.02,-103.66,1915,USNM
+Squamata,Crotalus viridis,South Dakota,"Quinn's Draw, Bad Lands",43.99,-102.13,1894,USNM
+Squamata,Crotalus viridis,South Dakota,"Pierre, ca. 2 mi W and 12 mi N of",44.37,-100.35,1935,USNM
