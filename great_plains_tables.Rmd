@@ -1,0 +1,373 @@
+---
+title: "Great_plains_tables"
+output: html_document
+date: "2025-05-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(dplyr)
+library(knitr)
+```
+
+```{r echo=FALSE}
+# This reads in the .cvs viles made from the general occurences data. 
+montana_data_1950 <- read_csv("data/montana_1950_records.csv")
+north_dakota_data_1950 <- read_csv("data/north_dakota_1950_records.csv")
+south_dakota_data_1950 <- read_csv("data/south_dakota_1950_records.csv")
+
+```
+
+# The Chunks of code Below make tables of the locations with the highest number of samples by count and distinct species for Montana.
+
+```{r}
+# Table of bird species richness by site in Montana
+bird_species_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Aves") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+  head(bird_species_by_site_mt),
+  caption = "Bird Species Richness by Site in Montana")
+
+# Table of bird record counts by site in Montana
+bird_count_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Aves") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+  head(bird_count_by_site_mt),
+  caption = "Bird Record Counts by Site in Montana")
+
+```
+
+```{r}
+# montana mammalia tables
+# Filter for Mammalia in Montana
+montana_mammals <- montana_data_1950 %>%
+  filter(class == "Mammalia")
+
+# Species richness table for mammals
+mammals_species_mt <- montana_mammals %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+
+kable(
+head(mammals_species_mt),
+caption = "Mammal Species Richness by Site in Montana")
+
+# Record count table for mammals
+mammals_count_mt <- montana_mammals %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+head(mammals_count_mt),
+caption = "Mammal Record Counts by Site in Montana")
+```
+
+```{r}
+# Table of squamata species richness by site in Montana 
+squamata_species_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Squamata") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(squamata_species_by_site_mt),
+caption = "Reptile Species Richness by Site in Montana")
+
+# Table of squamata record counts by site in Montana 
+squamata_count_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Squamata") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+head(squamata_count_by_site_mt),
+caption = "Reptile Record Counts by Site in Montana")
+```
+
+```{r}
+# Table of amphibia species richness by site in Montana 
+amphibia_species_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Amphibia") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(amphibia_species_by_site_mt),
+caption = "Amphibian Species Richness by Site in Montana")
+
+# Table of amphibia record counts by site in Montana 
+amphibia_count_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Amphibia") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+head(amphibia_count_by_site_mt),
+caption = "Amphibian Record Counts by Site in Montana")
+```
+
+```{r}
+# Table of testudines species richness by site in Montana 
+testudines_species_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Testudines") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(testudines_species_by_site_mt),
+caption = "Turtle Species Richness by Site in Montana")
+
+# Table of testudines record counts by site in Montana 
+testudines_count_by_site_mt <- montana_data_1950 %>%
+  filter(class == "Testudines") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+head(testudines_count_by_site_mt),
+caption = "Turtle Record Counts by Site in Montana")
+```
+
+# North Dakota Tables
+
+```{r}
+# Table of bird species richness by site in North Dakota 
+bird_species_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Aves") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+  head(bird_species_by_site_nd),
+  caption = "Bird Species Richness by Site in North Dakota")
+
+# Table of bird record counts by site in North Dakota 
+bird_count_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Aves") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+  head(bird_count_by_site_nd),
+  caption = "Bird Record Counts by Site in North Dakota")
+```
+
+```{r}
+# Filter for Mammalia in North Dakota
+north_dakota_mammals <- north_dakota_data_1950 %>%
+  filter(class == "Mammalia")
+
+# Species richness table for mammals
+mammals_species_nd <- north_dakota_mammals %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(mammals_species_nd),
+caption = "Mammal Species Richness by Site in North Dakota")
+
+# Record count table for mammals
+mammals_count_nd <- north_dakota_mammals %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+
+kable(
+head(mammals_count_nd),
+caption = "Mammal Record Counts by Site in North Dakota")
+```
+
+```{r}
+# Table of squamata species richness by site in North Dakota 
+squamata_species_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Squamata") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(squamata_species_by_site_nd),
+caption = "Reptile Species Richness by Site in North Dakota")
+
+# Table of squamata record counts by site in North Dakota 
+squamata_count_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Squamata") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+
+kable(
+head(squamata_count_by_site_nd),
+caption = "Reptile Record Counts by Site in North Dakota")
+```
+
+```{r}
+# Table of amphibia species richness by site in North Dakota (head only)
+amphibia_species_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Amphibia") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(amphibia_species_by_site_nd),
+caption = "Amphibian Species Richness by Site in North Dakota")
+
+# Table of amphibia record counts by site in North Dakota (head only)
+amphibia_count_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Amphibia") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+head(amphibia_count_by_site_nd),
+caption = "Amphibian Record Counts by Site in North Dakota")
+```
+
+```{r}
+# Table of testudines species richness by site in North Dakota 
+testudines_species_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Testudines") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(testudines_species_by_site_nd),
+caption = "Turtle Species Richness by Site in North Dakota")
+
+# Table of testudines record counts by site in North Dakota 
+testudines_count_by_site_nd <- north_dakota_data_1950 %>%
+  filter(class == "Testudines") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+head(testudines_count_by_site_nd),
+caption = "Turtle Record Counts by Site in North Dakota")
+```
+
+# South Dakota Tables
+
+```{r}
+# Table of bird species richness by site in South Dakota 
+bird_species_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Aves") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+  head(bird_species_by_site_sd),
+  caption = "Bird Species Richness by Site in South Dakota")
+
+# Table of bird record counts by site in South Dakota
+bird_count_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Aves") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+
+kable(
+  head(bird_count_by_site_sd),
+  caption = "Bird Record Counts by Site in South Dakota")
+```
+
+```{r}
+# Filter for Mammalia in South Dakota
+south_dakota_mammals <- south_dakota_data_1950 %>%
+  filter(class == "Mammalia")
+
+# Species richness table for mammals
+mammals_species_sd <- south_dakota_mammals %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(mammals_species_sd),
+caption = "Mammal Species Richness by Site in South Dakota")
+
+# Record count table for mammals
+mammals_count_sd <- south_dakota_mammals %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+kable(
+head(mammals_count_sd),
+caption = "Mammal Record Counts by Site in South Dakota")
+```
+
+```{r}
+# Table of squamata species richness by site in South Dakota 
+squamata_species_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Squamata") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+kable(
+head(squamata_species_by_site_sd),
+caption = "Reptile Species Richness by Site in South Dakota")
+
+# Table of squamata record counts by site in South Dakota 
+squamata_count_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Squamata") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+
+kable(
+head(squamata_count_by_site_sd),
+caption = "Reptile Record Counts by Site in South Dakota")
+```
+
+```{r}
+# Table of amphibia species richness by site in South Dakota 
+amphibia_species_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Amphibia") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+
+kable(
+head(amphibia_species_by_site_sd),
+caption = "Amphibian Species Richness by Site in South Dakota")
+
+# Table of amphibia record counts by site in South Dakota 
+amphibia_count_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Amphibia") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+
+kable(
+head(amphibia_count_by_site_sd),
+caption = "Amphibian Record Counts by Site in South Dakota")
+```
+
+```{r}
+# Table of testudines species richness by site in South Dakota 
+testudines_species_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Testudines") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_species = n_distinct(species), .groups = "drop") %>%
+  arrange(desc(n_species))
+
+kable(
+head(testudines_species_by_site_sd),
+caption = "Turtle Species Richness by Site in South Dakota")
+
+# Table of testudines record counts by site in South Dakota 
+testudines_count_by_site_sd <- south_dakota_data_1950 %>%
+  filter(class == "Testudines") %>%
+  group_by(locality, decimalLat, decimalLon, institutio, year) %>%
+  summarise(n_records = n(), .groups = "drop") %>%
+  arrange(desc(n_records))
+
+kable(
+head(testudines_count_by_site_sd),
+caption = "Turtle Record Counts by Site in South Dakota")
+```
