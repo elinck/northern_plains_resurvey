@@ -35,7 +35,7 @@ states_verbatim <- c("[North Dakota]", "Nd", "North dakota", "North Dakota",
 
 #subset columns we are interested in:
 subset_data <- data %>% 
-  select(class, locality, species, stateProvi, decimalLat, decimalLon, year) %>%
+  select(class, locality, species, stateProvi, decimalLat, decimalLon, year, institutio) %>%
   filter(stateProvi %in% c("Montana", "North Dakota", "South Dakota")) %>% 
   mutate(state_clean = case_when(
     str_to_lower(stateProvi) %in% c("nd", "[north dakota]", "north dakota (state)", "north dakota") ~ "North Dakota",
@@ -658,7 +658,7 @@ joined <- st_join(points_sf_filtered, grouped_sites, join = st_intersects)
 
 # calculate richness by merged localities, transform back
 richness_by_group <- joined %>% 
-  group_by(state_clean, class, geometry, locality) %>%
+  group_by(state_clean, class, geometry, locality, institutio) %>%
   distinct(species) %>% 
   summarise(species_richness = n(), .groups = "drop") %>% # count unique species per locality
   group_by(state_clean, class) %>%
@@ -669,7 +669,7 @@ richness_by_group <- joined %>%
 
 # same thing but for effort!
 effort_by_group <- joined %>% 
-  group_by(state_clean, class, geometry, locality) %>%
+  group_by(state_clean, class, geometry, locality, institutio) %>%
   summarise(n = n()) %>% # count number of records by locality
   group_by(state_clean, class) %>%
   slice_max(n, with_ties = FALSE) %>% # get most species-rich locality per class per state
@@ -731,4 +731,9 @@ ggplot(data = MT_ND_SD_counties) +
     shape = guide_legend(title = "Type", direction = "vertical")
   )
 ```
+Let's print tables of this informaiton, including collection:
 
+```{r, message=FALSE, warning=FALSE}
+richness_by_group
+effort_by_group
+```
