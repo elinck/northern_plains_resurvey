@@ -1,0 +1,734 @@
+---
+title: "Northern Great Plains Site Selection Report"
+output: html_document
+date: "2025-05-21"
+author:
+  - Nate Ingelfinger & Ethan Linck, Montana State University
+  - Britt Heidinger, North Dakota State University
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+To propose sites to resurvey in the Northern Great Plains, we decided to visualize species richness and number of records across our region using geospatial tools in R. We begin by loading a number of libraries for our analysis: 
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2) # load ggplot graphics library
+library(sf) # load Rspatial package
+library(maps) # load "maps" package
+library(elevatr) # load "elevatr" package
+library(terra) # load "terra" package
+library(ggrepel)
+data <- read_csv("data/occurences.csv")
+```
+
+To aid in site selection, a subset of the occurrence data was created by filtering records collected before 1950 from the states of Montana, North Dakota, and South Dakota. The data set was further refined to retain only the relevant fields: taxonomic class, species, state or province, locality, and year of collection. Note that we need to filter by nonstandard naming in the original data: 
+
+```{r, message=FALSE, warning=FALSE}
+# look at variable spellings of state names
+data$stateProvi %>% unique() %>% sort()
+states_verbatim <- c("[North Dakota]", "Nd", "North dakota", "North Dakota",
+                     "North Dakota (State)", "Sd", "South dakota", "South Dakota", 
+                     "Montana (State)", "Montana")
+
+#subset columns we are interested in:
+subset_data <- data %>% 
+  select(class, locality, species, stateProvi, decimalLat, decimalLon, year) %>%
+  filter(stateProvi %in% c("Montana", "North Dakota", "South Dakota")) %>% 
+  mutate(state_clean = case_when(
+    str_to_lower(stateProvi) %in% c("nd", "[north dakota]", "north dakota (state)", "north dakota") ~ "North Dakota",
+    str_to_lower(stateProvi) %in% c("sd", "south dakota") ~ "South Dakota",
+    str_to_lower(stateProvi) %in% c("montana", "montana (state)") ~ "Montana",
+    TRUE ~ locality
+  )) 
+
+#count the number of observations in each taxonomic class
+subset_data %>%
+  group_by(class, state_clean) %>%
+  summarise(n = n())
+
+#count the number of observations in each taxonomic class
+subset_data %>%
+  group_by(class, state_clean) %>%
+  summarise(n = n_distinct(species))
+```
+
+Next, we'll geberate a histogram to illustrate the distribution of collection years for all samples in the data set. This visualization provides insight into the patterns of sampling effort and helps identify periods of peak collection activity.
+
+```{r, message=FALSE, warning=FALSE}
+ggplot(subset_data, aes(x = year)) +
+  geom_histogram(binwidth = 5, fill = "steelblue", color = "black") +
+  labs(
+    title = "Distribution of Collection Dates by Year Across States",
+    x = "Year",
+    y = "Count"
+  ) +
+  facet_wrap(~state_clean)
+```
+
+We now want to prepare spatial data for mapping the species occurrence records in Montana, North Dakota, and South Dakota. This code will also check that the projections are consistent and filters the data set to the area of interest.
+
+```{r, message=FALSE, warning=FALSE}
+# set map projections
+map_proj <- st_crs("EPSG:4326")
+
+# get state and county shapefiles
+states <- st_as_sf(maps::map("state", plot = FALSE, fill = TRUE), crs = map_proj)
+
+# filter state and county shapefiles for Montana, North Dakota, South Dakota
+MT_ND_SD_states <- states[states$ID %in% c("montana", "north dakota", "south dakota"),]
+counties <- st_as_sf(maps::map("county", plot = FALSE, fill = TRUE), crs = map_proj)
+MT_ND_SD_counties <- subset(counties, grepl("montana|north dakota|south dakota", counties$ID))
+
+# transform CRS
+MT_ND_SD_states <- st_transform(MT_ND_SD_states, crs = map_proj)
+MT_ND_SD_counties <- st_transform(MT_ND_SD_counties, crs = map_proj)
+```
+
+Next, we'll create basic map of the Northern Great Plains region, displaying species occurrence records with color coding by taxonomic group. This visualization aids in the identification of spatial patterns in sampling effort and taxonomic representation across the region.
+
+```{r, message=FALSE, warning=FALSE}
+# turn subset data into points
+points_sf <- st_as_sf(subset_data, coords = c("decimalLon", "decimalLat"), crs = map_proj)
+
+# Define bounding box for Montana, North Dakota, and South Dakota due to an outlying point
+bbox <- st_sfc(st_polygon(list(matrix(c(-115, 40,   # Longitudes and latitudes for the bounding box
+                                        -85, 40,
+                                        -85, 50,
+                                        -115, 50,
+                                        -115, 40), 
+                                      ncol = 2, byrow = TRUE))),
+               crs = map_proj)
+
+# Filter out points outside the bounding box
+points_sf_filtered <- points_sf[st_intersects(points_sf, bbox, sparse = FALSE), ]
+
+# Simple ggplot of Montana, North Dakota, and South Dakota with filtered points
+ggplot() +
+  theme_bw() +
+  geom_sf(data = MT_ND_SD_states, fill = "lightgray", color = "black") +  # States
+  geom_sf(data = MT_ND_SD_counties, fill = "lightblue", color = "darkblue", alpha=0.5) +  # Counties (optional)
+  geom_sf(data = points_sf_filtered, pch = 1) +  # Add filtered points
+  theme(axis.title = element_blank()) +
+  coord_sf()  # Automatically crops to the boundaries of the selected states
+
+# Filter out points outside the bounding box for Montana, North Dakota, and South Dakota
+points_sf_filtered <- points_sf[st_intersects(points_sf, bbox, sparse = FALSE), ]
+
+# Separate out the map by class and focus on the three states, showing only filtered points
+ggplot(data = MT_ND_SD_counties) +
+  theme_bw() +
+  geom_sf() +  # Plot counties
+  geom_sf(data = points_sf_filtered, aes(shape = class, color = class), size = 1) +  # Map shape and color to class
+  theme(
+    axis.title = element_blank(),
+    legend.position = "bottom"
+    ) +
+  coord_sf()
+```
+
+Next, we'll build on the previous visualization by incorporating Eco-regions as the base layer. By overlaying species occurrence records onto ecological regions, this map aids in refining site selection by highlighting records located within areas characteristic of the Great Plains.
+
+```{r, message=FALSE, warning=FALSE}
+# Load ecoregion shapefiles for Montana, North Dakota, and South Dakota
+mt_shp <- st_read("data/mt_eco_l4/mt_eco_l4.shp")  # Montana ecoregions
+nd_shp <- st_read("data/nd_eco_l4/nd_eco_l4.shp")  # North Dakota ecoregions
+sd_shp <- st_read("data/sd_eco_l4/sd_eco_l4.shp")  # South Dakota ecoregions
+
+# Transform shapefiles to the same CRS
+mt_shp_transf <- st_transform(mt_shp, crs = map_proj)
+nd_shp_transf <- st_transform(nd_shp, crs = map_proj)
+sd_shp_transf <- st_transform(sd_shp, crs = map_proj)
+
+# subset down to same number of columns
+mt_shp_transf <- mt_shp_transf %>% select(!OBJECTID)
+sd_shp_transf <- sd_shp_transf %>% select(!OBJECTID)
+
+# combined shp file
+combined_shp <- rbind(mt_shp_transf, nd_shp_transf, sd_shp_transf)
+
+# Base plot without legends
+ggplot() +
+  theme_bw() +
+  geom_sf(data = combined_shp, aes(fill = US_L3NAME), alpha = 0.4, color = NA,) +
+  geom_sf(data = points_sf_filtered, aes(shape = class, color = class), size = 1.5) +
+  labs(
+    title = "Localities by Class over Ecoregions in MT, ND, and SD",
+    x = "Longitude", y = "Latitude"
+  ) +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 12, face = "bold"),
+    axis.title = element_text(size = 8),
+    legend.position = "bottom",
+    legend.title = element_blank()
+  ) +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Category", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal")
+
+  ) + 
+  coord_sf()
+```
+
+The following six maps display a hexagonal heatmap of species richness and total number of occurences overlaid with points, color-coded by taxonomic class. These visualizations facilitate the identification of areas with higher species richness and collecting effort while also indicating which taxonomic groups were collected at each location. 
+
+```{r, message=FALSE, warning=FALSE}
+# Make sure geometries are valid
+MT_ND_SD_states_valid <- st_make_valid(MT_ND_SD_states)
+
+# Create the grid
+MT_ND_SD_grid <- MT_ND_SD_states_valid %>%
+  # for hexagonal cells the distance between opposite edges (edge length is cellsize/sqrt(3)).
+  st_make_grid(cellsize = .5, square = FALSE) %>% 
+  st_intersection(MT_ND_SD_states_valid) %>%
+  st_sf()
+
+# Order grid cells from southwest to northeast
+MT_ND_SD_grid <- MT_ND_SD_grid %>%
+  mutate(centroid = st_centroid(geometry)) %>%
+  mutate(x = st_coordinates(centroid)[,1],
+         y = st_coordinates(centroid)[,2]) %>%
+  arrange(y, x) %>%
+  mutate(cellid = row_number()) %>%
+  select(-centroid, -x, -y)
+
+# check geometry
+MT_ND_SD_grid <- st_transform(MT_ND_SD_grid, crs = map_proj)
+
+# Filter Montana state
+MT_state <- MT_ND_SD_states %>% filter(ID == "montana")
+
+# Filter species points to just Montana
+points_mt <- points_sf_filtered[st_intersects(points_sf_filtered, MT_state, sparse = FALSE), ]
+
+# Filter grid cells that intersect with Montana
+MT_grid <- MT_ND_SD_grid[st_intersects(MT_ND_SD_grid, MT_state, sparse = FALSE), ]
+
+# Calculate species richness per grid cell in Montana
+richness_grid_mt <- MT_grid %>%
+  st_join(points_mt) %>%
+  distinct(cellid, species, geometry) %>%               # Keep only one row per species per cell
+  group_by(cellid) %>%
+  summarize(num_species = n(), .groups = "drop", do_union = FALSE) %>%            # Count unique species per cell
+  mutate(log_num_species = log(num_species + 1))
+
+# calculate collecting effort (# of specimens)
+effort_grid_mt <- MT_grid %>%
+  st_join(points_mt) %>%
+  mutate(overlap = ifelse(!is.na(id), 1, 0)) %>%
+  group_by(cellid) %>%
+  summarize(n = n())
+
+ggplot() +
+  # Base species richness grid
+  geom_sf(data = MT_grid, fill = NA, size = 0.1) +
+  geom_sf(data = richness_grid_mt, aes(fill = num_species), color = NA) +
+  # Change color scale to white -> red
+  scale_fill_gradient(
+    low = "white",
+    high = "red",
+    na.value = "transparent",
+    name = "Species Richness"
+  ) +
+  # Overlay occurrence points by class
+  geom_sf(data = points_mt, aes(shape = class, color = class), size = 1.5, alpha = 0.8) +
+  # Labels and theming
+  labs(color = "Class", shape = "Class") +
+  xlab("Longitude") +
+  ylab("Latitude") +
+  theme_bw() +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Richness", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) +    ggtitle("Montana Species Richness and Occurrence Records by Class")
+
+ggplot() +
+  geom_sf(data = MT_grid, fill = NA, size = 0.1) +
+  geom_sf(data = effort_grid_mt, aes(fill = n), color = NA) +
+  # Change color scale to white -> red
+  scale_fill_gradient(
+    low = "white",
+    high = "red",
+    na.value = "transparent",
+    name = "Collecting Effort (n)"
+  ) +
+  # Overlay occurrence points by class
+  geom_sf(data = points_mt, aes(shape = class, color = class), size = 1.5, alpha = 0.8) +
+  # Labels and theming
+  labs(color = "Class", shape = "Class") +
+  xlab("Longitude") +
+  ylab("Latitude") +
+  theme_bw() +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Specimens", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) +  
+  ggtitle("Montana Collecting Effort and Occurrence Records by Class")
+```
+
+```{r, message=FALSE, warning=FALSE}
+# Filter North Dakota state
+ND_state <- MT_ND_SD_states %>% filter(ID == "north dakota")
+
+# Filter species points to just North Dakota
+points_nd <- points_sf_filtered[st_intersects(points_sf_filtered, ND_state, sparse = FALSE), ]
+
+# Filter grid cells that intersect with North Dakota
+ND_grid <- MT_ND_SD_grid[st_intersects(MT_ND_SD_grid, ND_state, sparse = FALSE), ]
+
+# Calculate species richness per grid cell in Montana
+richness_grid_nd <- ND_grid %>%
+  st_join(points_nd) %>%
+  distinct(cellid, species, geometry) %>%               # Keep only one row per species per cell
+  group_by(cellid) %>%
+  summarize(num_species = n(), .groups = "drop", do_union = FALSE) %>%            # Count unique species per cell
+  mutate(log_num_species = log(num_species + 1))
+
+# calculate collecting effort (# of specimens)
+effort_grid_nd <- ND_grid %>%
+  st_join(points_nd) %>%
+  mutate(overlap = ifelse(!is.na(id), 1, 0)) %>%
+  group_by(cellid) %>%
+  summarize(n = n())
+
+ggplot() +
+  # Base species richness grid
+  geom_sf(data = ND_grid, fill = NA, size = 0.1) +
+  geom_sf(data = richness_grid_nd, aes(fill = num_species), color = NA) +
+  # Change color scale to white -> red
+  scale_fill_gradient(
+    low = "white",
+    high = "red",
+    na.value = "transparent",
+    name = "Species Richness"
+  ) +
+  # Overlay occurrence points by class
+  geom_sf(data = points_nd, aes(shape = class, color = class), size = 1.5, alpha = 0.8) +
+  # Labels and theming
+  labs(color = "Class", shape = "Class") +
+  xlab("Longitude") +
+  ylab("Latitude") +
+  theme_bw() +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Richness", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) + 
+  ggtitle("North Dakota Species Richness and Occurrence Records by Class")
+
+ggplot() +
+  geom_sf(data = ND_grid, fill = NA, size = 0.1) +
+  geom_sf(data = effort_grid_nd, aes(fill = n), color = NA) +
+  # Change color scale to white -> red
+  scale_fill_gradient(
+    low = "white",
+    high = "red",
+    na.value = "transparent",
+    name = "Collecting Effort (n)"
+  ) +
+  # Overlay occurrence points by class
+  geom_sf(data = points_nd, aes(shape = class, color = class), size = 1.5, alpha = 0.8) +
+  # Labels and theming
+  labs(color = "Class", shape = "Class") +
+  xlab("Longitude") +
+  ylab("Latitude") +
+  theme_bw() +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Specimens", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) + 
+  ggtitle("North Dakota Collecting Effort and Occurrence Records by Class")
+
+```
+
+...and lastly, for South Dakota: 
+
+```{r, message=FALSE, warning=FALSE}
+# Filter South Dakota state
+SD_state <- MT_ND_SD_states %>% filter(ID == "south dakota") %>% st_make_valid()
+
+# Filter species points to just South Dakota
+points_sd <- points_sf_filtered[st_intersects(points_sf_filtered, SD_state, sparse = FALSE), ] %>%
+  st_make_valid()
+
+# Filter grid cells that intersect with South Dakota
+SD_grid <- MT_ND_SD_grid[st_intersects(MT_ND_SD_grid, SD_state, sparse = FALSE), ] %>%
+  st_make_valid()
+
+# Calculate species richness per grid cell in Montana
+richness_grid_sd <- SD_grid %>%
+  st_join(points_sd) %>%
+  distinct(cellid, species, geometry) %>%               # Keep only one row per species per cell
+  group_by(cellid) %>%
+  summarize(num_species = n(), .groups = "drop", do_union = FALSE) %>%            # Count unique species per cell
+  mutate(log_num_species = log(num_species + 1))
+
+# calculate collecting effort (# of specimens)
+effort_grid_sd <- SD_grid %>%
+  st_join(points_sd) %>%
+  mutate(overlap = ifelse(!is.na(id), 1, 0)) %>%
+  group_by(cellid) %>%
+  summarize(n = n())
+
+ggplot() +
+  # Base species richness grid
+  geom_sf(data = SD_grid, fill = NA, size = 0.1) +
+  geom_sf(data = richness_grid_sd, aes(fill = num_species), color = NA) +
+  # Change color scale to white -> red
+  scale_fill_gradient(
+    low = "white",
+    high = "red",
+    na.value = "transparent",
+    name = "Species Richness"
+  ) +
+  # Overlay occurrence points by class
+  geom_sf(data = points_sd, aes(shape = class, color = class), size = 1.5, alpha = 0.8) +
+  # Labels and theming
+  labs(color = "Class", shape = "Class") +
+  xlab("Longitude") +
+  ylab("Latitude") +
+  theme_bw() +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Richness", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) + 
+  ggtitle("South Dakota Species Richness and Occurrence Records by Class")
+
+ggplot() +
+  geom_sf(data = SD_grid, fill = NA, size = 0.1) +
+  geom_sf(data = effort_grid_sd, aes(fill = n), color = NA) +
+  # Change color scale to white -> red
+  scale_fill_gradient(
+    low = "white",
+    high = "red",
+    na.value = "transparent",
+    name = "Collecting Effort (n)"
+  ) +
+  # Overlay occurrence points by class
+  geom_sf(data = points_sd, aes(shape = class, color = class), size = 1.5, alpha = 0.8) +
+  # Labels and theming
+  labs(color = "Class", shape = "Class") +
+  xlab("Longitude") +
+  ylab("Latitude") +
+  theme_bw() +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Specimens", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) + 
+  ggtitle("South Dakota Collecting Effort and Occurrence Records by Class")
+```
+
+Let's knock that out for the entire region: 
+
+```{r, message=FALSE, warning=FALSE}
+# Make sure geometries are valid
+MT_ND_SD_states_valid <- st_make_valid(MT_ND_SD_states)
+
+# Create the grid with larger cellsize (0.2 instead of 0.1)
+MT_ND_SD_grid <- MT_ND_SD_states_valid %>%
+  st_make_grid(cellsize = 0.5, square=FALSE) %>%
+  st_intersection(MT_ND_SD_states_valid) %>%
+  st_make_valid() %>%
+  st_sf()
+
+# Order grid cells from southwest to northeast
+MT_ND_SD_grid <- MT_ND_SD_grid %>%
+  mutate(centroid = st_centroid(geometry)) %>%
+  mutate(x = st_coordinates(centroid)[,1],
+         y = st_coordinates(centroid)[,2]) %>%
+  arrange(y, x) %>%
+  mutate(cellid = row_number()) %>%
+  select(-centroid, -x, -y)
+
+# Transform CRS if needed
+MT_ND_SD_grid <- st_transform(MT_ND_SD_grid, crs = map_proj)
+
+# Recalculate capped richness and assign bins
+richness_grid <- MT_ND_SD_grid %>%
+  st_join(points_sf_filtered) %>%
+  mutate(overlap = ifelse(!is.na(id), 1, 0)) %>%
+  group_by(cellid) %>%
+  summarize(num_species = sum(overlap)) %>%
+  mutate(num_species_capped = ifelse(num_species > 60, 60, num_species),
+         richness_bin = cut(num_species_capped,
+                            breaks = c(-1, 10, 20, 30, 40, 50, 60),
+                            labels = c("0–10", "11–20", "21–30", "31–40", "41–50", "51–60+")))
+
+# Same thing for collecting effort:
+effort_grid <- MT_ND_SD_grid %>%
+  st_join(points_sf_filtered) %>%
+  mutate(overlap = ifelse(!is.na(id), 1, 0)) %>%
+  group_by(cellid) %>%
+  summarize(n = n()) %>%
+  mutate(records_capped = ifelse(n > 100, 100, n),
+         records_bin = cut(records_capped,
+                            breaks = c(-1, 20, 40, 60, 80, 100),
+                            labels = c("0–20", "21–40", "41–60", "61–80", "81–100+")))
+
+# Plot with 6-bin blue-to-yellow scale
+ggplot(richness_grid) +
+  geom_sf(data = MT_ND_SD_grid, fill = NA, size = 0.1) +
+  geom_sf(aes(fill = richness_bin), color = NA) +
+  labs(fill = "Species Richness") +
+  scale_fill_manual(
+    values = c(
+      "0–10"    = "#2b83ba",  # blue
+      "11–20"   = "#66c2a5",  # teal
+      "21–30"   = "#abdda4",  # light green
+      "31–40"   = "#fdae61",  # orange
+      "41–50"   = "#f46d43",  # reddish-orange
+      "51–60+"  = "#d73027"   # red-yellow
+    ),
+    drop = FALSE
+  ) +
+  xlab("Longitude") +
+  ylab("Latitude") +
+  theme_bw() +
+  theme(legend.position = "bottom") +
+  ggtitle("Binned Species Richness in the Northern Plains")
+
+# Define new red-orange color palette
+richness_colors <- c(
+  "0–10"    = "#fff5eb",
+  "11–20"   = "#fd8d3c",
+  "21–30"   = "#fc4e2a",
+  "31–40"   = "#e31a1c",
+  "41–50"   = "#bd0026",
+  "51–60+"  = "#800026"
+)
+
+# Define new red-orange color palette
+records_colors <- c(
+  "0–20"    = "#fff5eb",
+  "21–40"   = "#fd8d3c",
+  "41–60"   = "#fc4e2a",
+  "61–80"   = "#e31a1c",
+  "81–100+"   = "#bd0026"
+)
+
+# Define clearer point colors (assuming 3 classes: A, B, C)
+class_colors <- c(
+  "A" = "#1f78b4",  # blue
+  "B" = "#33a02c",  # green
+  "C" = "#6a3d9a"   # purple
+)
+
+# Combined map plot
+ggplot() +
+  theme_bw() +
+
+  # Basemap: Species richness bins
+  geom_sf(data = richness_grid, aes(fill = richness_bin), 
+          color = "white", size = 0.05) +
+  scale_fill_manual(
+    values = richness_colors,
+    drop = FALSE,
+    name = "Species Richness",
+  ) +
+
+  # Overlay: Collection points
+  geom_sf(
+    data = points_sf_filtered,
+    aes(shape = class, color = class),
+    size = 1.1,
+  ) +
+  scale_color_manual(values = class_colors) +
+
+  # Titles and labels
+  labs(
+    title = "Species Richness and Collection Points 
+    by Class in MT, ND, and SD",
+    x = "Longitude",
+    y = "Latitude",
+    shape = "Class",
+    color = "Class"
+  ) +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
+    axis.title = element_text(size = 10),
+  ) +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Specimens", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) + 
+  coord_sf()
+
+# Same thing but for effort:
+ggplot() +
+  theme_bw() +
+
+  # Basemap: Species richness bins
+  geom_sf(data = effort_grid, aes(fill = records_bin), 
+          color = "white", size = 0.05) +
+  scale_fill_manual(
+    values = records_colors,
+    drop = FALSE,
+    name = "No. Specimens",
+  ) +
+
+  # Overlay: Collection points
+  geom_sf(
+    data = points_sf_filtered,
+    aes(shape = class, color = class),
+    size = 1.1,
+  ) +
+  scale_color_manual(values = class_colors) +
+
+  # Titles and labels
+  labs(
+    title = "Collecting Effort and Collection Points 
+    by Class in MT, ND, and SD",
+    x = "Longitude",
+    y = "Latitude",
+    shape = "Class",
+    color = "Class"
+  ) +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
+    axis.title = element_text(size = 10),
+  ) +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Specimens", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal"),
+  ) + 
+  coord_sf()
+```
+
+Let's plot the top site per taxon per state by species richness and collecting effort: 
+
+```{r, message=FALSE, warning=FALSE}
+# switch projection and simplify geometry to speed calculations
+points_sf_filtered <- st_transform(points_sf_filtered, 3857) %>%
+  st_simplify(dTolerance = 10)
+
+# Buffer points by 1000 meters and dissolve overlapping ones to group nearby sites
+grouped_sites <- points_sf_filtered %>%
+  st_buffer(dist = 1000) %>%
+  st_union() %>%
+  st_sf(group_id = 1:length(.))
+
+# Join original points to grouped polygons
+joined <- st_join(points_sf_filtered, grouped_sites, join = st_intersects)
+
+# calculate richness by merged localities, transform back
+richness_by_group <- joined %>% 
+  group_by(state_clean, class, geometry, locality) %>%
+  distinct(species) %>% 
+  summarise(species_richness = n(), .groups = "drop") %>% # count unique species per locality
+  group_by(state_clean, class) %>%
+  slice_max(species_richness, with_ties = FALSE) %>% # get most species-rich locality per class per state
+  ungroup() %>% 
+  st_cast("POINT") %>%
+  st_transform(map_proj)
+
+# same thing but for effort!
+effort_by_group <- joined %>% 
+  group_by(state_clean, class, geometry, locality) %>%
+  summarise(n = n()) %>% # count number of records by locality
+  group_by(state_clean, class) %>%
+  slice_max(n, with_ties = FALSE) %>% # get most species-rich locality per class per state
+  ungroup() %>% 
+  st_cast("POINT") %>%
+  st_transform(map_proj)
+
+# plot species richness
+ggplot(data = MT_ND_SD_counties) +
+  geom_sf() +
+    geom_sf(data = richness_by_group,
+          aes(color = class,
+              size = species_richness),
+          alpha = 0.8) +
+  geom_label_repel(
+    data =  richness_by_group %>%
+      mutate(coords = st_coordinates(geometry)) %>%
+      bind_cols(as_tibble(.$coords)),
+    aes(x = X, y = Y, label = locality),
+    size = 3,
+    min.segment.length = 0,
+    seed = 1234,
+    max.overlaps = 100) +
+  theme_bw() +
+    labs(title = "Top sites by taxon, state, and species richness") +
+   theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Category", direction = "vertical"),
+    shape = guide_legend(title = "Type", direction = "vertical")
+  )
+
+# plot effort
+ggplot(data = MT_ND_SD_counties) +
+  geom_sf() +
+    geom_sf(data = effort_by_group,
+          aes(color = class,
+              size = n),
+          alpha = 0.8) +
+  geom_label_repel(
+    data =  effort_by_group %>%
+      mutate(coords = st_coordinates(geometry)) %>%
+      bind_cols(as_tibble(.$coords)),
+    aes(x = X, y = Y, label = locality),
+    size = 3,
+    min.segment.length = 0,
+    seed = 1234,
+    max.overlaps = 100) +
+  theme_bw() +
+    labs(title = "Top sites by taxon, state, and collecting effort") +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Category", direction = "vertical"),
+    shape = guide_legend(title = "Type", direction = "vertical")
+  )
+```
+

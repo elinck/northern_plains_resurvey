@@ -2,11 +2,7 @@
 
 ### Scripts
 
-`01_GP_site_filtering.R`: R script to filter ATP-provided occurence data 
-down to specimens from MT, ND, and SD.  
+`01_northern_great_plains_report.Rmd`: R Markdown notebook to filter ATP-provided occurence data down to specimens from MT, ND, and SD, summarize, plot, select high-priority sites.
 
-`02_GP_occurences_NPLOT.R`: R script to perform additional filtering and 
-export `.csv` files to summarize in the subsequent script.
+`01_northern_great_plains_report.html`: .`html` report of the above `.Rmd` document. 
 
-`03_great_plains_tables.Rmd`: Rmarkdown file to produce .html report with 
-summaries of collecting localities across all states. 
