@@ -6,3 +6,4 @@
 
 `01_northern_great_plains_report.html`: .`html` report of the above `.Rmd` document. 
 
+`northern_plains_sites.pdf`: `.pdf` map of final site choices.  
