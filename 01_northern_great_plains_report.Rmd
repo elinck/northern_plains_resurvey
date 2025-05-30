@@ -731,9 +731,115 @@ ggplot(data = MT_ND_SD_counties) +
     shape = guide_legend(title = "Type", direction = "vertical")
   )
 ```
-Let's print tables of this informaiton, including collection:
+Let's print tables of an expanded version of this (top *2* sites per state per taxon):
 
 ```{r, message=FALSE, warning=FALSE}
-richness_by_group
-effort_by_group
+
+# calculate richness by merged localities, transform back
+richness_by_group_2 <- joined %>% 
+  group_by(state_clean, class, geometry, locality, institutio) %>%
+  distinct(species) %>% 
+  summarise(species_richness = n(), .groups = "drop") %>% # count unique species per locality
+  group_by(state_clean, class) %>%
+  top_n(2, species_richness) %>% # get most collection-rich localities per class per state
+  ungroup() %>% 
+  st_cast("POINT") %>%
+  st_transform(map_proj) %>%
+  print(n=100)
+
+# same thing but for effort!
+effort_by_group_2 <- joined %>% 
+  group_by(state_clean, class, geometry, locality, institutio) %>%
+  summarise(n = n()) %>% # count number of records by locality
+  group_by(state_clean, class) %>%
+  top_n(2, n) %>% # get most collection-rich localities per class per state
+  ungroup() %>% 
+  st_cast("POINT") %>%
+  st_transform(map_proj) %>%
+  print(n=100)
+
+richness_by_group_2
+effort_by_group_2
 ```
+
+Based on these data and discussions as a group, we think the following sites are the best candidates for resurvey work. None achieve all our goals, or have collections across taxa, but have other things to recommend them. 
+
+## Montana
+1) Miles City – This site is at the western edge of the Northern Great Plains. It has the highest species richness and greatest number of historical avian specimens collected in MT. It is ~ 4 hours east of Bozeman, MT and ~ 6 hours west of Fargo, ND.  
+2) Augusta – This site is located at the base of the Rocky Mountain front, where the prairies meet the mountains and at the gateway to Bob Marshall Recreation Area. It has the greatest number of historical mammalian specimens collected in MT. It is ~ 2.5 hours north of Bozeman, MT.  
+3) Babb – This site is a transitional ecoregion between the Rocky Mountains and mixed grass prairie. It is situated at the border of the Blackfeet Nation and Glacier National Park. It has the highest species richness of historical mammalian specimens collected in MT. It is ~ 4 hours north of Bozeman, MT or ~ 2 hours further north of Augusta. 
+
+## North Dakota
+1) Grafton – This site is part is part of the Northern Glaciated Plains (located in the Red River Valley) and has diverse habitat types including prairies and wetlands. Of all the sites we considered, it has the highest species richness and greatest number of historical bird samples collected in ND, MT, and SD. Some species were extensively sampled (e.g., Red-tailed hawks). This was largely done by a father and son team of taxidermists, William and Henry Williams (yes, the father’s name is William Williams ) in the 1920s and 1930s. It sounds like this collection has changed hands a couple of times and that some specimens are here at NDSU, some are at UND, some are at KU, and most are at the University of Michigan. We anticipate this will be one of the interesting historical stories from this area. This site is ~ 2 hours north of Fargo, ND.  
+2) Bottineau – This site is part is part of the Northern Glaciated Plains and has diverse habitat types including prairies, wetlands and forested areas. It has the greatest number of historical mammal samples collected in ND. It is near the Turtle Mountain Reservation. This site is ~ 4.5 hours northeast of Fargo, ND and ~ 2 hours northeast of Devil’s Lake.   
+3) Minot – This site is part of the part of the Northern Glaciated Plains. It has the highest species richness for historical mammal specimens in ND. It is ~ 4 hours northeast of Fargo, ND.  
+
+## South Dakota
+1) Black Hills (Palmer Gulch) – This site is at the edge of the Northwestern Great Plains and transition to the middle Rockies. It has the highest species richness and greatest number of historical mammalian samples collected in SD. It is characterized by diverse habitat types including prairies and forested areas. It is ~ 8.5 hours southwest of Fargo, ND and ~ 8 hours southeast of Bozeman, MT.  
+2) Pierre – This site is part of the Northwester Great Plains and is located along the east bank of the Missouri River and near the Fort Pierre National Grassland. It has the largest number of historical squamata samples for SD, MT, or ND. It is a mixed grassland and forested habitat. It is ~ 5 hours southwest of Fargo, ND.  
+3) Huron – This site is part of the Northwestern Great Plains and is located about 2 hours east of Pierre. It is at the heart of the prairie pothole region and is an important grassland and wetland area in SD. This site has the greatest number of historical avian samples in SD. It is ~ 3.5 hours southwest of Fargo, ND.  
+
+Let's plot these across our ecoregion map: 
+
+```{r, message=FALSE, warning=FALSE}
+new_effort <- bind_rows(richness_by_group, effort_by_group)
+locality_list <- c("Miles city", "AUGUSTA, 6.5 MI N, 17.2 MI W OF", "BABB, 1.5 MI S, 2.5 MI W OF",
+                   "Grafton", "Bottineau", "Minot", "Black Hills, Palmer Gulch", "Pierre, vicinity of", "Huron")
+final_localities <- new_effort %>%
+  filter(locality %in% locality_list) %>%
+  distinct(locality, geometry, institutio)
+
+# plot!  
+final_map <- ggplot(data = MT_ND_SD_counties) +
+  geom_sf() +
+  geom_sf(data = final_localities,
+          aes(color = institutio,
+              shape = institutio),
+          size=4,
+          alpha = 0.8) +
+  geom_label_repel(
+    data =  final_localities %>%
+      mutate(coords = st_coordinates(geometry)) %>%
+      bind_cols(as_tibble(.$coords)),
+    aes(x = X, y = Y, label = locality),
+    size = 3,
+    min.segment.length = 0,
+    seed = 1234,
+    max.overlaps = 100) +
+  labs(
+    title = "Proposed Resurvey Localities, Northern Great Plains",
+    x = "Longitude", y = "Latitude"
+  ) +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  theme_bw() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 12, face = "bold"),
+    axis.title = element_text(size = 8),
+    legend.position = "bottom",
+    legend.title = element_blank()
+  ) +
+  theme(
+    legend.position = "bottom",     # Place the whole legend area at the bottom
+    legend.box = "vertical"         # Stack individual legends vertically
+  ) +
+  guides(
+    fill = guide_legend(title = "Category", direction = "horizontal"),
+    shape = guide_legend(title = "Type", direction = "horizontal"),
+    color = guide_legend(title = "Type", direction = "horizontal")
+  )
+final_map
+```
+
+We'll write a .pdf version to distribute:
+
+```{r, message=FALSE, warning=FALSE}
+pdf("northern_plains_sites.pdf", width = 7, height = 5)
+final_map
+dev.off()
+```
+
+
+
